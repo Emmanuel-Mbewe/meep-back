@@ -1,7 +1,7 @@
 // routes/subtopicRoutes.js
 const express = require('express');
 const router = express.Router();
-const subtopicController = require('../controlers/subtopicController');
+const subtopicController = require('../Controlers/subtopicController');
 
 // Create a new subtopic
 router.post('/', subtopicController.createSubtopic);
